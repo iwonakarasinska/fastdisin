@@ -1,0 +1,50 @@
+button {
+  background-color: #85dbd8;
+  color: white;
+}
+
+.navigation-paragraph {
+  color: #85dbd8;
+}
+
+.vertical-bar {
+  background-color: #85dbd8;
+}
+
+.product {
+  background-color: white;
+}
+
+.product-description {
+  color: #666666;
+}
+
+#container {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(#91babd));
+  background-image: linear-gradient(white, #91babd);
+}
+
+#top-horizontal-bar {
+  background-color: #85dbd8;
+}
+
+#contact-bar {
+  background-color: white;
+}
+
+#description {
+  color: black;
+}
+
+#info h1 {
+  color: black;
+}
+
+#info h2 {
+  color: black;
+}
+
+#info ul {
+  color: black;
+}
+/*# sourceMappingURL=colors.css.map */

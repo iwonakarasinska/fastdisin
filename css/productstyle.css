@@ -1,0 +1,111 @@
+#container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 350px auto auto 150px;
+      grid-template-columns: 350px auto auto 150px;
+  -ms-grid-rows: 10px 100px 30px auto auto auto;
+      grid-template-rows: 10px 100px 30px auto auto auto;
+      grid-template-areas: "top-bar    top-bar        top-bar       top-bar" "logo       nav-menu       nav-menu      contact" ".          .              .             .      " ".          image          info          .      " ".          description    description   .      " ".          contact-bar    contact-bar   .      ";
+}
+
+#description {
+  margin: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#description li {
+  margin-left: 20px;
+}
+
+#info-list {
+  list-style-type: none;
+}
+
+#info-list li {
+  margin-left: 10px;
+}
+
+#ask-button {
+  margin: 20px auto 20px auto;
+}
+
+#info h1 {
+  margin: 30px;
+}
+
+#info button,
+#info ul,
+#info h2 {
+  margin: 10px 0px 10px 20px;
+}
+
+#button-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+#info {
+  -ms-grid-row: 4;
+  -ms-grid-column: 3;
+  grid-area: info;
+}
+
+#navigation-list {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
+  grid-area: nav-menu;
+}
+
+#contact-bar {
+  -ms-grid-row: 6;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
+  grid-area: contact-bar;
+}
+
+#description {
+  -ms-grid-row: 5;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
+  grid-area: description;
+}
+
+#logo {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: logo;
+}
+
+#top-horizontal-bar {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 4;
+  grid-area: top-bar;
+}
+
+#contact {
+  -ms-grid-row: 2;
+  -ms-grid-column: 4;
+  grid-area: contact;
+}
+
+#image {
+  -ms-grid-row: 4;
+  -ms-grid-column: 2;
+  grid-area: image;
+}
+/*# sourceMappingURL=productstyle.css.map */
