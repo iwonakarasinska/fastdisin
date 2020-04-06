@@ -3,12 +3,12 @@
     grid-template-columns: 350px auto auto auto 150px;
     grid-template-rows: 10px 100px 30px auto auto auto;
     grid-template-areas:
-        "top-bar    top-bar        top-bar       top-bar      top-bar"
-        "logo     nav-menu       nav-menu      nav-menu     contact"
-        ".          .              .             .            .      "
-        ".          prod1          prod2         prod3        .      "
-        ".          prod4          prod5         prod6        .      "
-        ".          contact-bar    contact-bar   contact-bar  .      "
+        "top-bar      top-bar        top-bar       top-bar      top-bar"
+        "logo         nav-menu       nav-menu      nav-menu     contact"
+        ".            .              .             .            .      "
+        "contact-us   prod1          prod2         prod3        .      "
+        "contact-us   prod4          prod5         prod6        .      "
+        ".            contact-bar    contact-bar   contact-bar  .      "
     ;
 }
 
@@ -27,6 +27,25 @@
 
 .product-image {
     border-radius: 10px;
+}
+
+#contact-us {
+    width: 300px;
+    padding: 20px;
+    border-radius: 20px;
+    // height: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    h1,
+    img,
+    p {
+        margin: 20px 10px;
+    }
 }
 
 ///////////////////////////////////////
@@ -74,4 +93,8 @@
 
 #contact-bar {
     grid-area: contact-bar;
+}
+
+#contact-us {
+    grid-area: contact-us;
 }

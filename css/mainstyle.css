@@ -5,7 +5,7 @@
       grid-template-columns: 350px auto auto auto 150px;
   -ms-grid-rows: 10px 100px 30px auto auto auto;
       grid-template-rows: 10px 100px 30px auto auto auto;
-      grid-template-areas: "top-bar    top-bar        top-bar       top-bar      top-bar" "logo     nav-menu       nav-menu      nav-menu     contact" ".          .              .             .            .      " ".          prod1          prod2         prod3        .      " ".          prod4          prod5         prod6        .      " ".          contact-bar    contact-bar   contact-bar  .      ";
+      grid-template-areas: "top-bar      top-bar        top-bar       top-bar      top-bar" "logo         nav-menu       nav-menu      nav-menu     contact" ".            .              .             .            .      " "contact-us   prod1          prod2         prod3        .      " "contact-us   prod4          prod5         prod6        .      " ".            contact-bar    contact-bar   contact-bar  .      ";
 }
 
 .product {
@@ -23,6 +23,33 @@
 
 .product-image {
   border-radius: 10px;
+}
+
+#contact-us {
+  width: 300px;
+  padding: 20px;
+  border-radius: 20px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+#contact-us h1,
+#contact-us img,
+#contact-us p {
+  margin: 20px 10px;
 }
 
 #prod1 {
@@ -92,5 +119,12 @@
   -ms-grid-column: 2;
   -ms-grid-column-span: 3;
   grid-area: contact-bar;
+}
+
+#contact-us {
+  -ms-grid-row: 4;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  grid-area: contact-us;
 }
 /*# sourceMappingURL=mainstyle.css.map */

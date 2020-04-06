@@ -29,7 +29,8 @@ button {
 }
 
 #contact-bar {
-  background-color: white;
+  background-color: rgba(71, 71, 71, 0.288);
+  color: white;
 }
 
 #description {
@@ -46,5 +47,9 @@ button {
 
 #info ul {
   color: black;
+}
+
+#contact-us {
+  background-color: rgba(100, 100, 100, 0.4);
 }
 /*# sourceMappingURL=colors.css.map */
