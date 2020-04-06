@@ -6,7 +6,7 @@ $bottom-gradient: #91babd; //DOLNY GRADIENT
 
 $navigation-text-color: $base-color; //KOLOR TEKSTU W MENU NAWIGACJI NA GÓRZE
 
-$contact-bar-color: rgba(71, 71, 71, 0.288); //KOLOR PASKA Z KONTAKTEM
+$contact-bar-color: rgba(71, 71, 71, 0.275); //KOLOR PASKA Z KONTAKTEM
 $contact-bar-text-color: white;
 $vertical-bar-color: $base-color; //KOLOR PIONOWYCH PASKÓW W MENU DO NAWIGACJI
 
@@ -17,7 +17,9 @@ $top-horizontal-bar-color: $base-color; //KOLOR POZIOMEGO PASKA NA SAMEJ GÓRZE
 $product-header-text-color: #666666; //KOLOR TEKSTU W TYTULE PRODUKTU
 $product-background-color: white; //KOLOR TŁA PRODUKTU
 
-$contact-us-background-color: rgba(100, 100, 100, 0.4);
+$contact-us-background-color: rgba(71, 71, 71, 0.275);
+$contact-us-header-color: white;
+$contact-us-paragraph-color: white;
 
 // STRONA PRODUKTU
 
@@ -84,4 +86,12 @@ button {
 
 #contact-us {
     background-color: $contact-us-background-color;
+
+    h1 {
+        color: $contact-us-header-color;
+    }
+
+    p {
+        color: $contact-us-paragraph-color;
+    }
 }

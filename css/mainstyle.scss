@@ -17,6 +17,12 @@
     height: auto;
     margin: 50px;
     border-radius: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(71, 71, 71, 0.275);
+    -webkit-box-shadow: 16px 11px 10px 0px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 16px 11px 10px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 16px 11px 10px 0px rgba(0, 0, 0, 0.15);
 }
 
 .product-description {
@@ -26,7 +32,7 @@
 }
 
 .product-image {
-    border-radius: 10px;
+    border-radius: 10px 10px 0 0;
 }
 
 #contact-us {
@@ -41,10 +47,24 @@
     align-items: center;
     text-align: center;
 
+
     h1,
     img,
     p {
         margin: 20px 10px;
+    }
+
+    img {
+        width: 200px;
+        height: auto;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 28px;
     }
 }
 
